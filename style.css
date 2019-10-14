@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto;
+  font-weight: 500;
+  width: cover;
+}
+h1 {
+  font-weight: 300;
+  font-size: 2.5em;
+}
+h2 {
+  font-weight: 300;
+  font-size: 2em;
+  padding-bottom: 30px;
+}
+h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 10px 5px 10px;
+  margin: 0 0;
+  font-weight: 500;
+  font-size: 10pt;
+}
+.links {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-left {
+  float: left;
+}
+.heart {
+  padding: 0 20px 0 20px;
+}
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header {
+  background-image: url("images/city-scape.svg");
+  background-color: rgb(32, 101, 136);
+  height: 360px;
+  margin: 0 0;
+}
+.npm-logo {
+  height: 30px;
+  padding: 10px 10px;
+  float: left;
+}
+.search-bar {
+  height: 30px;
+  margin: 10px auto;
+  padding: 0 5px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  width: 75%;
+}
+.search-button {
+  height: 32px;
+  margin: 10px 0;
+  padding: 0 7px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.signup {
+  list-style-type: none;
+  padding: 15px 0 0 20px;
+  display: inline-flex;
+}
+.signup li a, span {
+  text-decoration: none;
+  font-size: 10pt;
+  color: rgba(255, 255, 255, 0.7);
+}
+.bear-logo {
+  width: auto;
+  height: 20px;
+  margin-left: 10px;
+}
+.description {
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
+  font-weight: 100;
+  position: absolute;
+  left: 100px;
+}
+.description h1 {
+  margin: 40px 0 30px;
+}
+.description p {
+  width: 500px;
+  padding-bottom: 30px;
+  font-weight: 300;
+}
+.description button {
+  background-color: rgb(240, 146, 51);
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 20px;
+  font-size: 1em;
+}
+.search img, input, button {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+#general {
+  background-color: rgb(39, 53, 71);
+  padding: 30px 0;
+}
+#general img {
+  padding: 50px 30px 50px 10%;
+  width: 30%;
+  float: left;
+}
+.general-text {
+  color: white;
+  line-height: 2em;
+  padding: 40px 10% 0 50px;
+  margin: 0 auto;
+  float: left;
+  width: 40%;
+}
+.general-text ul {
+  padding-left: 30px;
+}
+.general-text button {
+  background-color: rgb(203, 56, 55);
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-size: 1em;
+}
+.general-text p a {
+  text-decoration: none;
+  color: white;
+  float: none;
+}
+#install {
+  background-image: url("images/forklift.svg");
+  background-color: rgb(32, 101, 136);
+  height: 400px;
+  padding: 0 0 100px 0;
+  margin: 0 0;
+  position: relative;
+}
+#install h2, p {
+  color: white;
+}
+#install p {
+  font-size: 0.9em;
+}
+.install-content {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 300px;
+}
+.install-content button {
+  background-color: rgb(49, 68, 88);
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-size: 1em;
+}
+#browser {
+  height: 400px;
+}
+.browser-header {
+  padding: 40px 0;
+  text-align: center;
+}
+.browser-header p, .browser-section div p {
+  color:rgb(135, 145, 156);
+  text-align: center;
+}
+.browser-section h3 {
+  font-size: 1em;
+}
+.browser-section p {
+  font-size: 0.9em;
+}
+.browser-section div a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+.browser-section div {
+  width: 20%;
+  float: left;
+  margin: 0 5%;
+}
+.browser-section div img {
+  margin: 0 25%;
+}
+.clearfix {
+  clear: both;
+}

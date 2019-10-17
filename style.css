@@ -7,6 +7,7 @@ body {
   font-family: Roboto;
   font-weight: 500;
   width: cover;
+  color: white;
 }
 h1 {
   font-weight: 300;
@@ -46,6 +47,8 @@ button {
 .blue {
   background-color: rgb(49, 68, 88);
 }
+
+/* NAV */
 nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
@@ -74,6 +77,8 @@ nav {
   display: inline-block;
   margin: 0 10px;
 }
+
+/* HEADER */
 header {
   background-image: url("images/city-scape.svg");
   background-color: rgb(32, 101, 136);
@@ -87,7 +92,7 @@ header {
   padding: 10px 10px;
   float: left;
 }
-.search-area {
+.search {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -122,7 +127,8 @@ header {
   display: inline-flex;
   width: 180px;
 }
-.signup li a, span {
+.signup li a,
+.signup span {
   text-decoration: none;
   font-size: 10pt;
   color: rgba(255, 255, 255, 0.7);
@@ -149,6 +155,8 @@ header {
   padding-bottom: 30px;
   font-weight: 300;
 }
+
+/* GENERAL */
 #general {
   background-color: rgb(39, 53, 71);
   padding: 30px 0;
@@ -175,6 +183,8 @@ header {
   color: white;
   float: none;
 }
+
+/* INSTALL */
 #install {
   background-image: url("images/forklift.svg");
   background-color: rgb(32, 101, 136);
@@ -182,9 +192,6 @@ header {
   padding: 0 0 100px 0;
   margin: 0 0;
   position: relative;
-}
-#install h2, p {
-  color: white;
 }
 #install p {
   font-size: 0.9em;
@@ -196,6 +203,8 @@ header {
   left: 100px;
   width: 300px;
 }
+
+/* BROWSER */
 #browser {
   height: 400px;
 }
@@ -203,7 +212,8 @@ header {
   padding: 40px 0;
   text-align: center;
 }
-.browser-header p, .browser-section div p {
+.browser-header p, 
+.browser-section div p {
   color:rgb(135, 145, 156);
   text-align: center;
 }

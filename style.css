@@ -77,13 +77,20 @@ nav {
 header {
   background-image: url("images/city-scape.svg");
   background-color: rgb(32, 101, 136);
+  display: flex;
+  flex-direction: row;
   height: 360px;
-  margin: 0 0;
+  margin: auto;
 }
 .npm-logo {
   height: 30px;
   padding: 10px 10px;
   float: left;
+}
+.search-area {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 .search-bar {
   height: 30px;
@@ -92,7 +99,9 @@ header {
   background-color: rgb(31, 82, 111);
   border: 1px solid;
   border-color: rgba(255, 255, 255, 0.2);
-  width: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 .search-button {
   height: 32px;
@@ -111,6 +120,7 @@ header {
   list-style-type: none;
   padding: 15px 0 0 20px;
   display: inline-flex;
+  width: 180px;
 }
 .signup li a, span {
   text-decoration: none;
@@ -129,6 +139,7 @@ header {
   font-weight: 100;
   position: absolute;
   left: 100px;
+  top: 60px;
 }
 .description h1 {
   margin: 40px 0 30px;
@@ -137,11 +148,6 @@ header {
   width: 500px;
   padding-bottom: 30px;
   font-weight: 300;
-}
-.search img, input, button {
-  float: left;
-  color: white;
-  text-decoration: none;
 }
 #general {
   background-color: rgb(39, 53, 71);

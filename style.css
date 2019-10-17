@@ -100,7 +100,7 @@ header {
 .search-bar {
   height: 30px;
   margin: 10px auto;
-  padding: 0 5px;
+  padding: 0 10px;
   background-color: rgb(31, 82, 111);
   border: 1px solid;
   border-color: rgba(255, 255, 255, 0.2);
@@ -111,7 +111,7 @@ header {
 .search-button {
   height: 32px;
   width: 32px;
-  margin: 10px 0;
+  margin: 10px 10px 0 0;
   padding: 0 7px;
   background-color: rgb(31, 82, 111);
   border: 1px solid;
@@ -123,7 +123,7 @@ header {
 }
 .signup {
   list-style-type: none;
-  padding: 15px 0 0 20px;
+  padding-top: 15px;
   display: inline-flex;
   width: 180px;
 }

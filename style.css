@@ -96,6 +96,7 @@ header {
 }
 .search-button {
   height: 32px;
+  width: 32px;
   margin: 10px 0;
   padding: 0 7px;
   background-color: rgb(31, 82, 111);
@@ -103,6 +104,7 @@ header {
   border-radius: 0;
   border-color: rgba(255, 255, 255, 0.2);
   position: relative;
+  font-size: 0.7em;
 }
 .signup {
   list-style-type: none;
